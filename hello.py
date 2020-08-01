@@ -18,4 +18,4 @@ app.layout = html.Div([
     dcc.Graph(figure=fig)
 ])
 if __name__ == '__main__':
-    app.run_server(port=4040) (debug=True)
+    app.run_server()
